@@ -83,6 +83,8 @@ li {
 }
 
 .logo {
+  font-family: 'Internacional', sans-serif;
+  letter-spacing: -2px;
   font-size: 2rem;
   font-weight: 700;
 }
@@ -167,7 +169,7 @@ section {
 }
 
 .home-text h1 {
-  margin: 10px 0px 25px;
+  margin: 0px 0px 17px 0px;
   font-size: var(--big-font);
   line-height: 1;
   font-weight: 800;
@@ -179,33 +181,61 @@ section {
   font-weight: 300;
 }
 
-.social{
-  align-items: center;
-  justify-content: center;
-  margin-top: 10px;
+.home-text h4{
+  font-size: 18px;
+  font-weight: 300;
 }
 
-.social a{
-  display: inline-flex;
-  width: 30px;
-  height: 30px;
+.social-wrap .social-button{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  margin: 18px 5px;
+  text-align: center;
+  border: 2px solid var(--text-color);
+  background: transparent;
+  border-radius: 50px;
+  cursor: pointer;
+  color: var(--bg-color);
+  overflow: hidden;
+  transition: all 0.3s ease-in;
+}
+
+.social-wrap .social-button:hover{
+  width: fit-content;
+  background: var(--text-color);
+  padding: 0 20px;
+}
+
+.social-wrap .social-button a{
+  line-height: 40px;
   text-decoration: none;
-  border-radius: 20%;
-  align-items: center;
-  justify-content: center;
-  font-size: 20px;
-  padding: 3px;
-  background-color: var(--text-color);
-  border-radius: 100%;
-  color: var(--bg-color);
-  margin: 5px 5px;
+  color: var(--text-color);
+  font-size: 24px;
+  transition: 0.3s ease-in;
 }
-.social a:hover{
-  transform: scale(1.1);
-  color: var(--bg-color);
+
+.social-wrap .social-button:nth-child(1):hover a,
+.social-wrap .social-button:nth-child(2):hover a,
+.social-wrap .social-button:nth-child(3):hover a,
+.social-wrap .social-button:nth-child(4):hover a,
+.social-wrap .social-button:nth-child(5):hover a{
   background-color: var(--main-color);
-  transition: ease.5s;
+  color: var(--bg-color);
+  padding: 8px;
 }
+
+.social-wrap .social-button span{
+  align-self: center;
+  line-height: 40px;
+  font-size: 18px;
+  font-family:'Anton', sans-serif; 
+  font-weight: 500;
+  margin-left: 10px; 
+  transition: 0.3s ease-in;
+
+}
+
 
 /* ABOUT SECTION */
 #about{
