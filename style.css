@@ -233,9 +233,7 @@ section {
   font-weight: 500;
   margin-left: 10px; 
   transition: 0.3s ease-in;
-
 }
-
 
 /* ABOUT SECTION */
 #about{
@@ -282,9 +280,33 @@ section {
   margin: 10px 5px 0px 5px;
   letter-spacing: 1px;
   font-family:'Montserrat', sans-serif;  
-  text-align: justify;
+  text-align: left;
   letter-spacing: 1px;
   font-size: var(--p-font);
+}
+
+.skills{
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+.skill-box{
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.skill-box img{
+  justify-content: center;
+}
+
+.skill-box h5{
+  font-size: 12px;
+  font-family: 'Raleway', sans-serif;
 }
 
 /* Experience */
