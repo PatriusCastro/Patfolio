@@ -1,10 +1,10 @@
 @font-face {
-  font-family: Internacional;
-  src: url(assets/fonts/Internacional-Regular.otf);
   font-family: Montserrat;
   src: url(assets/fonts/Montserrat-VariableFont_wght.ttf);
   font-family: Raleway;
   src: url(assets/fonts/Raleway-VariableFont_wght.ttf);
+  font-family: Sequel;
+  src: url(assets/fonts/Sequel\ Sans\ Black\ Disp.otf);
 }
 
 * {
@@ -17,13 +17,13 @@
   --text-color: #272829;
   --second-color: #61677a;
   --main-color: #ff6442;
-  --big-font: 4rem;
-  --h2-font: 1.8rem;
+  --big-font: 3.7rem;
+  --h2-font: 1.6rem;
   --p-font: 1rem;
 }
 
 body {
-  font-family: "Anton", sans-serif;
+  font-family: "Sequel", sans-serif;
   background: linear-gradient(to left,#9e998c, #fff6e0, #fff6e0, #fff6e0, #fff6e0, #9e998c);
   color: var(--text-color);
   overflow-x: hidden;
@@ -58,24 +58,17 @@ li {
 
 .nav-links a {
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 500;
+  font-family: 'Sequel', sans-serif;
   color: var(--text-color);
   padding: 8px 10px;
-}
-
-.nav-links a::after {
-  content: "";
-  position: absolute;
-  width: 0;
-  height: 2px;
-  bottom: -9px;
-  left: 0;
-  transition: ease 0.4s;
+  transition: all 0.3s ease-in;
 }
 
 .nav-links a:hover {
   color: var(--main-color);
+  text-shadow: 1px 1px 0px var(--text-color);
 }
 
 .nav-links a:hover::after {
@@ -83,7 +76,7 @@ li {
 }
 
 .logo {
-  font-family: 'Internacional', sans-serif;
+  font-family: 'Sequel', sans-serif;
   letter-spacing: -2px;
   font-size: 2rem;
   font-weight: 700;
@@ -264,24 +257,33 @@ section {
   width: 40%;
   align-self: center;
   justify-content: center;
-  background-color: #27282928;
-  border-radius: 30px;
+  background-color: transparent;
+  border: 1px solid #eee5d0;
+  border-radius: 20px;
   margin: 20px;
-  padding: 30px;
+  box-shadow: 0px 10px 10px rgb(0, 0, 0, 0.1);
 }
 
-.about-container h2{
+.about-title{
+  background: var(--text-color);
+  padding: 10px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.about-title h2{
   font-size: var(--h2-font);
+  color: var(--bg-color);
   letter-spacing: 1px;
-  text-shadow: 0px 2px 5px #dadada;
+  margin-left: 10px;
 }
 
 .about-container p{
   margin: 10px 5px 0px 5px;
   letter-spacing: 1px;
   font-family:'Montserrat', sans-serif;  
-  text-align: left;
+  text-align: justify;
   letter-spacing: 1px;
+  padding: 10px 20px 10px 20px;
   font-size: var(--p-font);
 }
 
@@ -291,6 +293,7 @@ section {
   flex-wrap: wrap;
   width: 100%;
   justify-content: center;
+  padding-bottom: 10px;
 }
 
 .skill-box{
@@ -306,7 +309,7 @@ section {
 
 .skill-box h5{
   font-size: 12px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* Experience */
