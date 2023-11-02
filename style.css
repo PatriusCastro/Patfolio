@@ -318,3 +318,10 @@ section {
   display: flex;
   justify-content: center;
 }
+
+/* Projects */
+#projects{
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
