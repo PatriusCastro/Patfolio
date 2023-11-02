@@ -205,7 +205,7 @@ section {
   text-decoration: none;
   color: var(--text-color);
   font-size: 24px;
-  transition: 0.3s ease-in;
+  transition: 0.5s ease-in;
 }
 
 .social-wrap .social-button:nth-child(1):hover a,
@@ -225,7 +225,7 @@ section {
   font-family:'Anton', sans-serif; 
   font-weight: 500;
   margin-left: 10px; 
-  transition: 0.3s ease-in;
+  transition: 0.5s ease-in;
 }
 
 /* ABOUT SECTION */
@@ -303,8 +303,13 @@ section {
   margin: 10px;
 }
 
+.skill-box:hover img{
+  transform: scale(1.1);
+}
+
 .skill-box img{
   justify-content: center;
+  transition: all 0.3s ease-in;
 }
 
 .skill-box h5{
