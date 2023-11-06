@@ -5,6 +5,8 @@
   src: url(assets/fonts/Raleway-VariableFont_wght.ttf);
   font-family: Sequel;
   src: url(assets/fonts/Sequel\ Sans\ Black\ Disp.otf);
+  font-family: Scene;
+  src: url(assets/fonts/SceneProBlack.OTF);
 }
 
 * {
@@ -23,7 +25,7 @@
 }
 
 body {
-  font-family: "Sequel", sans-serif;
+  font-family: "Scene", sans-serif;
   background: linear-gradient(to left,#9e998c, #fff6e0, #fff6e0, #fff6e0, #fff6e0, #9e998c);
   color: var(--text-color);
   overflow-x: hidden;
