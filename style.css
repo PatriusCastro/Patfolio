@@ -19,7 +19,7 @@
   --text-color: #272829;
   --second-color: #61677a;
   --main-color: #ff6442;
-  --big-font: 3.7rem;
+  --big-font: 3.3rem;
   --h2-font: 1.6rem;
   --p-font: 1rem;
 }
@@ -89,8 +89,8 @@ li {
 }
 
 section {
-  height: 100vh;
-  margin: 0 10rem;
+  height: 90vh;
+  margin: 0 15rem;
   box-sizing: border-box;
   min-height: fit-content;
 }
@@ -158,9 +158,7 @@ section {
 }
 
 .home-text {
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  text-align: left;
 }
 
 .home-text h1 {
@@ -172,13 +170,18 @@ section {
 
 .home-text h3 {
   color: var(--main-color);
-  font-size: 20px;
-  font-weight: 300;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .home-text h4{
   font-size: 18px;
   font-weight: 300;
+}
+
+.home-text p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: var(--p-font);
 }
 
 .social-wrap .social-button{
@@ -206,7 +209,7 @@ section {
   line-height: 40px;
   text-decoration: none;
   color: var(--text-color);
-  font-size: 24px;
+  font-size: 22px;
   transition: 0.5s ease-in;
 }
 
