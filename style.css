@@ -105,7 +105,7 @@ section {
   display: flex;
   white-space: nowrap;
   border-radius: 40px;
-  background: linear-gradient(to left, #272829, #444647, #505253, #444647, #272829);
+  background: linear-gradient(to left, #272829, transparent, #272829);
   box-shadow: 0px -5px 10px #57565680,
             0px 5px 10px #57565680;
 }
@@ -116,7 +116,8 @@ section {
   font-weight: 500;
   letter-spacing: 10px;
   text-transform: uppercase;
-  color: var(--bg-color);
+  color: #272829;
+  text-shadow: 2px 2px 5px #57565680, -2px -2px 5px #57565680;
   animation: animate_text 50s linear infinite;
 }
 
