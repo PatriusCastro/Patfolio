@@ -105,14 +105,14 @@ section {
   display: flex;
   white-space: nowrap;
   border-radius: 40px;
-  background: linear-gradient(to left, #272829, transparent, #272829);
-  box-shadow: 0px -5px 10px #57565680,
-            0px 5px 10px #57565680;
+  background: transparent;
+  box-shadow: inset 5px 0px 10px var(--text-color),
+            inset -5px 0px 10px var(--text-color);
 }
 
 .title {
   justify-content: center;
-  font-size: 50px;
+  font-size: 42px;
   font-weight: 500;
   letter-spacing: 10px;
   text-transform: uppercase;
