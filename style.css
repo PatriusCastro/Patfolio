@@ -49,8 +49,8 @@ nav {
   position: sticky;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  padding: 1vh;
+  justify-content: space-between;
+  padding: 1vh 20vh;
   transition: 0.3s;
   background: linear-gradient(to bottom, #00000034, transparent);
   z-index: 1;
@@ -171,8 +171,6 @@ aside{
 
 .social-wrap .social-button{
   display: flex;
-  height: 40px;
-  width: 40px;
   margin: 8px;
   border-radius: 50px;
   justify-content: center;
