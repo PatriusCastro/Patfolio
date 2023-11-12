@@ -15,10 +15,10 @@
 }
 
 :root {
-  --bg-color: #fff6e0;
-  --text-color: #272829;
+  --bg-color: #EEEEEE;
+  --text-color: #0F0E0E;
   --second-color: #61677a;
-  --main-color: #ff6442;
+  --main-color: #A7000A;
   --big-font: 3.3rem;
   --h2-font: 1.6rem;
   --p-font: 1rem;
@@ -52,7 +52,8 @@ nav {
   justify-content: space-between;
   padding: 1vh 20vh;
   transition: 0.3s;
-  background: linear-gradient(to bottom, #00000034, transparent);
+  background: var(--bg-color);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.466) ;
   z-index: 1;
 }
 
@@ -212,7 +213,8 @@ aside{
   position: relative;
   height: 90%;
   border-radius: 5px;
-  border: 1px solid var(--main-color);
+  filter: drop-shadow(0 0 10px var(--second-color));
+  border-bottom: var(--main-color) 3px solid;
   align-self: center;
 }
 
@@ -247,6 +249,7 @@ aside{
 
 .home-text p{
   font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
   font-size: var(--p-font);
 }
 
