@@ -50,10 +50,11 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1vh 20vh;
+  margin: 0 25vh;
+  padding: 1vh 2vh;
   transition: 0.3s;
-  background: var(--bg-color);
-  border-bottom: var(--main-color) solid 3px;
+  background: transparent;
+  border-bottom: var(--main-color) solid 2px;
   z-index: 1;
 }
 
@@ -96,8 +97,8 @@ section {
   margin: 0;
   box-sizing: border-box;
   min-height: fit-content;
-  background: url(assets/bgg.png);
-  background-size: contain;
+  background: url(assets/noise.png);
+  background-size: cover;
   padding: 0 15rem;
 }
 
