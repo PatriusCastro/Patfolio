@@ -53,7 +53,7 @@ nav {
   padding: 1vh 20vh;
   transition: 0.3s;
   background: var(--bg-color);
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.466) ;
+  border-bottom: var(--main-color) solid 3px;
   z-index: 1;
 }
 
@@ -221,10 +221,10 @@ aside{
 .home-text {
   background-color: var(--bg-color);
   padding: 30px;
-  border: #272829 1px solid;
-  border-radius: 24px;
+  border: 3px solid var(--main-color);
   text-align: center;
   text-shadow: 2px 2px 5px #25252549;
+  box-shadow: 5px 5px 10px #575656a1;
   line-height: 1.5;
 }
 
