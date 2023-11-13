@@ -15,8 +15,8 @@
 }
 
 :root {
-  --bg-color: #0F0E0E;
-  --text-color: #EEE;
+  --bg-color: #EEEEEE;
+  --text-color: #0F0E0E;
   --second-color: #61677a;
   --main-color: #A7000A;
   --big-font: 3.3rem;
@@ -114,7 +114,7 @@ section {
   display: flex;
   white-space: nowrap;
   border-radius: 40px;
-  background: var(--bg-color);
+  background: var(--text-color);
   box-shadow: inset 5px 0px 10px #5756569d,
             inset -5px 0px 10px #5756569d;
 }
@@ -125,8 +125,8 @@ section {
   font-weight: 500;
   letter-spacing: 10px;
   text-transform: uppercase;
-  color: #272829;
-  text-shadow: 2px 2px 5px #57565680, -2px -2px 5px #57565680;
+  color: var(--bg-color);
+  text-shadow: 2px 2px 5px #3a3a3a80, -2px -2px 5px #3a3a3a80;
   animation: animate_text 50s linear infinite;
 }
 
