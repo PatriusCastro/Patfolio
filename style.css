@@ -53,7 +53,7 @@ nav {
   margin: 0 25vh;
   padding: 1vh 2vh;
   transition: 0.3s;
-  background: transparent;
+  background: var(--bg-color);
   border-bottom: var(--main-color) solid 2px;
   z-index: 1;
 }
