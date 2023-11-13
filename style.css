@@ -15,8 +15,8 @@
 }
 
 :root {
-  --bg-color: #EEEEEE;
-  --text-color: #0F0E0E;
+  --bg-color: #0F0E0E;
+  --text-color: #EEE;
   --second-color: #61677a;
   --main-color: #A7000A;
   --big-font: 3.3rem;
@@ -97,8 +97,10 @@ section {
   margin: 0;
   box-sizing: border-box;
   min-height: fit-content;
-  background: url(assets/noise.png);
+  background: url(assets/bgg.png);
   background-size: cover;
+  background-attachment: fixed;
+  background-position:center;
   padding: 0 15rem;
 }
 
