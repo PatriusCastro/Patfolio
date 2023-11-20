@@ -17,11 +17,11 @@
 :root {
   --bg-color: #EEEEEE;
   --text-color: #0F0E0E;
-  --second-color: #61677a;
+  --second-color: #252323;
   --main-color: #A7000A;
-  --big-font: 3.3rem;
+  --big-font: 4rem;
   --h2-font: 1.6rem;
-  --p-font: 1rem;
+  --p-font: 17px;
 }
 
 body {
@@ -238,38 +238,52 @@ aside{
 }
 
 .home-text {
-  background-color: var(--bg-color);
+  background-color: transparent;
   padding: 30px;
-  border: 3px solid var(--main-color);
-  text-align: center;
+  text-align: left;
   text-shadow: 2px 2px 5px #25252549;
-  box-shadow: 5px 5px 10px #575656a1;
   line-height: 1.5;
 }
 
+.home-text li{
+  list-style: none;
+}
+
 .home-text h1 {
-  margin: 0px 0px 17px 0px;
   font-size: var(--big-font);
   line-height: 1;
   font-weight: 800;
+  margin-bottom: 10px;
+  color: var(--text-color);
 }
 
 .home-text h3 {
   color: var(--main-color);
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.home-text a{
+  color: var(--text-color);
   font-size: 18px;
   margin-bottom: 10px;
   font-family: 'Montserrat', sans-serif;
 }
 
-.home-text h4{
-  font-size: 18px;
-  font-weight: 300;
+.home-text a:hover{
+  text-decoration: underline;
+  color: #A7000A;
+  cursor: pointer;
 }
 
 .home-text p{
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 1px;
   font-size: var(--p-font);
+  color: var(--second-color);
+  margin-bottom: 30px;
+  opacity: 0.9;
 }
 
 /* ABOUT SECTION */
