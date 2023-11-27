@@ -178,7 +178,7 @@ aside{
   display: flex;
   margin: 8px;
   border-radius: 50px;
-  justify-content: center;
+  justify-content: center;   
   cursor: pointer;
   transition: all 0.3s ease-in;
 }
