@@ -19,9 +19,9 @@
   --text-color: #0F0E0E;
   --second-color: #252323;
   --main-color: #A7000A;
-  --big-font: 4rem;
-  --h2-font: 1.6rem;
-  --p-font: 17px;
+  --big-font: 4.2rem;
+  --h2-font: 2rem;
+  --p-font: 20px;
 }
 
 body {
@@ -50,7 +50,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   margin: 0 25vh;
-  padding: 12px 24px;
+  padding: 24px;
   transition: 0.3s;
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(9.3px);
@@ -65,7 +65,7 @@ li {
 
 .nav-links a {
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 600;
   font-family: 'Sequel', sans-serif;
   color: var(--text-color);
@@ -82,7 +82,7 @@ li {
 .logo {
   font-family: 'Sequel', sans-serif;
   letter-spacing: -2px;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 700;
 }
 
@@ -121,7 +121,7 @@ section {
 
 .title {
   justify-content: center;
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 500;
   letter-spacing: 10px;
   text-transform: uppercase;
@@ -184,7 +184,7 @@ aside{
 }
 
 .social-button h4{
-  font-size: 12px;
+  font-size: 16px;
   align-self: center;
   justify-content: left;
   width: 10%;
@@ -201,7 +201,7 @@ aside{
 
 .social-button a{
   color: var(--text-color);
-  font-size: 24px;
+  font-size: 30px;
   align-self: center;
   text-align: center;
 }
@@ -250,7 +250,7 @@ aside{
   list-style: none;
 }
 
-.home-text h1 {
+.home-text h1{
   font-size: var(--big-font);
   line-height: 1;
   font-weight: 800;
