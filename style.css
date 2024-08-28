@@ -19,9 +19,9 @@
   --text-color: #0F0E0E;
   --second-color: #252323;
   --main-color: #A7000A;
-  --big-font: 4.2rem;
-  --h2-font: 2rem;
-  --p-font: 20px;
+  --big-font: 3.5rem;
+  --h2-font: 1.5rem;
+  --p-font: 16px;
 }
 
 body {
@@ -65,7 +65,7 @@ li {
 
 .nav-links a {
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 600;
   font-family: 'Sequel', sans-serif;
   color: var(--text-color);
@@ -82,12 +82,18 @@ li {
 .logo {
   font-family: 'Sequel', sans-serif;
   letter-spacing: -2px;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 
-.logo:hover {
-  cursor: default;
+.logo a{
+  text-decoration: none;
+  color: #0F0E0E;
+}
+
+.logo a:hover {
+  color: #A7000A;
+  transition: 1s ease;
 }
 
 section {
@@ -184,7 +190,7 @@ aside{
 }
 
 .social-button h4{
-  font-size: 16px;
+  font-size: 14px;
   align-self: center;
   justify-content: left;
   width: 10%;
@@ -201,7 +207,7 @@ aside{
 
 .social-button a{
   color: var(--text-color);
-  font-size: 30px;
+  font-size: 24px;
   align-self: center;
   text-align: center;
 }
@@ -366,12 +372,56 @@ aside{
   font-size: var(--h2-font);
 }
 
-/* Experience */
+/* Technologies */
 #experience{
   position: relative;
   display: flex;
   justify-content: center;
 }
+
+.tech-container{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tech-container a{
+  text-decoration: none;
+}
+
+.tech-card{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #b4b4b4;
+  border-radius: 10px;
+  margin: 20px;
+  width: 200px;
+  height: 50px;
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.tech-card h4{
+  color: var(--text-color);
+}
+
+.tech-card img{
+  width: 35px;
+  height: auto;
+}
+
+.tech-card:hover{
+  background-color: #c7c5c5;
+  transition: 0.5s ease;
+}
+
+.tech-card:hover img{
+  transform: scale(1.2);
+  transition: 0.5s ease;
+}
+
 
 /* Projects */
 #projects{
