@@ -1,6 +1,4 @@
 @font-face {
-  font-family: Montserrat;
-  src: url(assets/fonts/Montserrat-VariableFont_wght.ttf);
   font-family: Raleway;
   src: url(assets/fonts/Raleway-VariableFont_wght.ttf);
   font-family: Sequel;
@@ -49,8 +47,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 25vh;
-  padding: 24px;
+  padding: 12px 10vw;
   transition: 0.3s;
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(9.3px);
@@ -108,37 +105,18 @@ section {
   padding: 0 15rem;
 }
 
-.scrolling_text {
-  position: absolute;
-  justify-content: center;
-  align-items: baseline;
-  width: 50%;
-  margin-top: 40px;
-  overflow: hidden;
+.title{
   display: flex;
-  white-space: nowrap;
-  border-radius: 40px;
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(5.3px);
-  -webkit-backdrop-filter: blur(5.3px);
-  box-shadow: inset 5px 0px 10px #5756569d,
-            inset -5px 0px 10px #5756569d;
-}
-
-.title {
   justify-content: center;
-  font-size: 3rem;
-  font-weight: 500;
-  letter-spacing: 10px;
-  text-transform: uppercase;
-  color: var(--text-color);
-  opacity: 0.8;
-  text-shadow: 2px 2px 5px #3a3a3a80, -2px -2px 5px #3a3a3a80;
-  animation: animate_text 50s linear infinite;
+  margin: 100px auto;
+  text-align: center;
+  width: 100%;
 }
 
-.title span {
-  margin: 0 20px;
+.title h2{
+  font-family: Raleway;
+  font-size: var(--big-font);
+  font: 500;
 }
 
 @keyframes animate_text {
@@ -332,21 +310,12 @@ aside{
   align-self: center;
   justify-content: center;
   background-color: transparent;
-  border: 1px solid var(--second-color);
-  border-radius: 20px;
   overflow: hidden;
 }
 
-.about-title{
-  position: absolute;
-  background: var(--text-color);
-  padding: 10px;
-  border-radius: 20px 20px 0px 0px;
-}
-
-.about-title h2{
+.about-text h2{
+  text-align: center;
   font-size: var(--big-font);
-  color: var(--bg-color);
   letter-spacing: 1px;
   margin-left: 10px;
 }
@@ -367,20 +336,15 @@ aside{
   color: var(--bg-color);
 }
 
-.about-text h2{
-  text-align: center;
-  font-size: var(--h2-font);
-}
-
 /* Technologies */
 #experience{
   position: relative;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
 }
 
 .tech-container{
-  margin: auto;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -413,7 +377,8 @@ aside{
 }
 
 .tech-card:hover{
-  background-color: #c7c5c5;
+  cursor: pointer;
+  background-color: #bebcbc;
   transition: 0.5s ease;
 }
 
@@ -425,6 +390,44 @@ aside{
 
 /* Projects */
 #projects{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-card{
+  display: flex;
+  flex-direction: column;
+  margin: 0px 20px 30px 20px;
+  align-items: center;
+  border: 1px solid #b4b4b4;
+  border-radius: 10px;
+  height: 250px;
+  width: 300px;
+}
+
+.project-card img {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px 10px 0px 0px;
+  margin: 0px 15px;
+  width: 300px;
+  height: auto;
+}
+
+.project-card h2{
+  margin: 10px;
+  color: black;
+}
+
+/* Contact */
+#contact{
   position: relative;
   display: flex;
   justify-content: center;
