@@ -1,0 +1,311 @@
+@media screen and (max-width: 1400px){
+    *{
+        box-sizing: border-box;
+    }
+
+    #nav {
+        display: none;
+      }
+    
+    #hamburger-nav {
+        display: flex;
+    }
+
+    section {
+        min-height: fit-content;
+    }
+
+    .home-img {
+        display: flex;
+        height: 600px;
+        margin: auto 0;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    section {
+        height: fit-content;
+        margin: auto 0;
+        padding: 50px;
+    }
+
+    .title{
+        margin: 50px 0;
+    }
+
+    .title h2{
+        font-size: 36px;
+    }
+
+    .home-text{
+        padding: 50px 0px;
+    }
+
+    .home-text h1{
+        font-size: 40px;
+    }
+
+    .home-text h3{
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    .home-text p{
+        font-size: 16px;
+    }
+
+    .about-text h2{
+        font-size: 36px;
+    }
+
+    .about-text p{
+        font-size: 14px;
+    }
+
+    .tech-card{
+        width: 170px;
+        height: 44px;
+        margin: 12px;
+    }
+
+    .tech-card h4{
+        font-size: 14px;
+    }
+
+    .project-card{
+        margin: 10px;
+        height: 200px;
+        width: 250px;
+    }
+
+    .project-card img{
+        width: 250px;
+        height: 140px;
+    }
+
+    .form{
+        height: 50%;
+        width: 100%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    section {
+        min-height: fit-content;
+    }
+
+    .title{
+        margin: 40px 0;
+    }
+
+    .title h2{
+        font-size: 32px;
+    }
+
+    aside{
+        display: none;
+    }
+
+    .home-img {
+        display: flex;
+        height: 400px;
+        margin: auto 0;
+    }
+
+
+    .about-text h2{
+        font-size: 32px;
+    }
+
+    .about-text p{
+        font-size: 14px;
+    }
+
+    .tech-card{
+        width: 180px;
+        height: 44px;
+        margin: 12px;
+    }
+
+    .tech-card h4{
+        font-size: 14px;
+    }
+
+    .project-card{
+        margin: 10px;
+        height: 200px;
+        width: 250px;
+    }
+
+    .project-card img{
+        width: 250px;
+        height: 140px;
+    }
+
+    .form{
+        height: 50%;
+        width: 100%;
+    }
+}
+
+@media (min-width: 464px) and (max-width: 768px) {
+    section {
+        min-height: fit-content;
+    }
+
+    .title{
+        margin: 20px 0;
+    }
+
+    .title h2{
+        font-size: 32px;
+    }
+
+    aside{
+        display: none;
+    }
+
+    .home-img {
+        display: flex;
+        height: 400px;
+        margin: auto 0;
+    }
+
+
+    .about-text h2{
+        font-size: 32px;
+    }
+
+    .about-text p{
+        font-size: 14px;
+    }
+
+    .tech-card{
+        width: 180px;
+        height: 44px;
+        margin: 12px;
+    }
+
+    .tech-card h4{
+        font-size: 14px;
+    }
+
+    .project-card{
+        margin: 10px;
+        height: 200px;
+        width: 250px;
+    }
+
+    .project-card img{
+        width: 250px;
+        height: 140px;
+    }
+
+    .form{
+        height: 50%;
+        width: 100%;
+    }
+}
+
+@media (max-width: 463px) {
+    section {
+        min-height: fit-content;
+    }
+
+    .title{
+        margin: 20px 0;
+    }
+
+    .title h2{
+        font-size: 32px;
+    }
+
+    aside{
+        display: none;
+    }
+
+    .home-text {
+        text-align: center;
+    }
+
+    .home-img {
+        display: none;
+    }
+
+    #about{
+        height: fit-content;
+        padding: 20px 5px;
+    }
+
+    .about-text{
+        padding: 5px;
+    }
+
+    .about-text h2{
+        font-size: 24px;
+    }
+
+    .about-text p{
+        font-size: 14px;
+    }
+
+    .tech-card{
+        width: 180px;
+        height: 44px;
+        margin: 12px;
+    }
+
+    .tech-card h4{
+        font-size: 14px;
+    }
+
+    .tech-text h2{
+        font-size: 20px;
+    }
+
+    .project-card{
+        margin: 10px;
+        height: 200px;
+        width: 250px;
+    }
+
+    .project-card img{
+        width: 250px;
+        height: 140px;
+    }
+
+    .form{
+        height: 50%;
+        width: 100%;
+    }
+
+    .form h2{
+        font-size: 16px;
+    }
+
+    .footer-contain{
+        padding: 5px;
+    }
+    
+    .footer-nav{
+        margin-top: 5px;
+    }
+    
+    .footnav-links a{
+        font-size: 0.8rem;
+        padding-top: 0;
+        margin-top: 0;
+    }
+    
+    .footsocial a{
+        width: 24px;
+        height: 24px;
+        font-size: 24px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+
+    .footer-bottom p{
+        font-size: 12px;
+    }
+}

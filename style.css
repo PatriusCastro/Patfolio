@@ -64,7 +64,7 @@ li {
   text-decoration: none;
   font-size: 1.2rem;
   font-weight: 600;
-  font-family: 'Sequel', sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: var(--text-color);
   padding: 8px 16px;
   transition: all 0.3s ease-in;
@@ -93,6 +93,105 @@ li {
   transition: 1s ease;
 }
 
+/* Hamburger Nav */
+#hamburger-nav {
+  display: none;
+  position: relative;
+}
+
+.hamburger-menu {
+  position: relative;
+  display: inline-block;
+}
+
+.hamburger-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 24px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.hamburger-icon span {
+  width: 100%;
+  height: 2px;
+  background-color: var(--main-color);
+  transition: all 0.3 ease-in-out;
+}
+
+.menu-links {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin: 10px;
+  padding: 0px 10px;
+  border-radius: 10px;
+  background: #EEEEEE;
+  max-height: 0;
+  width: fit-content;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.menu-links a {
+  display: block;
+  padding: 10px;
+  text-align: center;
+  font-size: 1rem;
+  color: var(--second-color);
+  text-decoration: none;
+  transition: all 0.3 ease-in-out;
+}
+
+.menu-links a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: var(--main-color);
+  bottom: -1px;
+  left: 0;
+  transition: ease .4s;
+}
+
+.menu-links a:hover::after{
+  width: 100%;
+}
+
+.menu-links li {
+  list-style: none;
+}
+
+.menu-links.open {
+  max-height: 300px;
+}
+
+.hamburger-icon.open span:first-child {
+  transform: rotate(45deg) translate(10px, 5px);
+}
+
+.hamburger-icon.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger-icon.open span:last-child {
+  transform: rotate(-45deg) translate(10px, -5px);
+}
+
+.hamburger-icon span:first-child {
+  transform: none;
+}
+
+.hamburger-icon span:first-child {
+  opacity: 1;
+}
+
+.hamburger-icon span:first-child {
+  transform: none;
+}
+
+/* Section */
 section {
   height: 100vh;
   margin: 0;
@@ -349,11 +448,12 @@ aside{
   flex-wrap: wrap;
 }
 
-.tech-container h2{
+.tech-text h2{
   margin-top: 20px;
   font-family: Raleway;
   font-weight: 500;
   font-size: var(--h2-font);
+  text-align: center;
 }
 
 .tech-container a{
@@ -374,7 +474,10 @@ aside{
 }
 
 .tech-card h4{
+  font-family: Raleway;
   color: var(--text-color);
+  font-weight: 600;
+  text-align: right;
 }
 
 .tech-card img{
@@ -432,6 +535,8 @@ aside{
   text-align: center;
   font-size: 18px;
   color: black;
+  font-family: Raleway;
+  font-weight: 600;
 }
 
 .project-card:hover{
@@ -472,6 +577,8 @@ aside{
 
 .form h2{
   margin-top: 20px;
+  font-family: Raleway;
+  font-weight: 600;
 }
 
 .form hr{
@@ -614,4 +721,5 @@ li {
   color: var(--second-color);
   font-size: 16px;
   font-weight: 400;
+  margin-bottom: 10px;
 }
