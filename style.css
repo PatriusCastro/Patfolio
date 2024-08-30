@@ -196,7 +196,6 @@ aside{
   transition: all 0.3s ease-in;
 }
 
-
 /* HOME SECTION */
 
 #home {
@@ -337,7 +336,7 @@ aside{
 }
 
 /* Technologies */
-#experience{
+#technologies{
   position: relative;
   display: flex;
   flex-direction: column;
@@ -348,6 +347,13 @@ aside{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.tech-container h2{
+  margin-top: 20px;
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: var(--h2-font);
 }
 
 .tech-container a{
