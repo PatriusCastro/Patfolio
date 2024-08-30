@@ -418,7 +418,7 @@ aside{
   border-radius: 10px 10px 0px 0px;
   margin: 0px 15px;
   width: 300px;
-  height: auto;
+  height: 170px;
 }
 
 .project-card h2{
@@ -426,6 +426,16 @@ aside{
   text-align: center;
   font-size: 18px;
   color: black;
+}
+
+.project-card:hover{
+  background-color: #b4b4b4;
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+
+.project-card a{
+  text-decoration: none;
 }
 
 /* Contact */
