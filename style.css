@@ -197,7 +197,6 @@ section {
   margin: 0;
   box-sizing: border-box;
   min-height: fit-content;
-  background: url(assets/bgg.png);
   background-size: cover;
   background-attachment: fixed;
   background-position:center;
